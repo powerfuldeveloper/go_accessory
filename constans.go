@@ -10,7 +10,6 @@ import (
 	"github.com/kylelemons/gousb/usb"
 )
 
-// #include <linux/usb/ch9.h>
 // #include "f_accessory.h"
 import "C"
 
