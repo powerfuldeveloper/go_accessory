@@ -30,8 +30,8 @@ const (
 
 // requestType
 const (
-	RTYPE_IN  = (C.USB_DIR_IN | C.USB_TYPE_VENDOR)
-	RTYPE_OUT = (C.USB_DIR_OUT | C.USB_TYPE_VENDOR)
+	RTYPE_IN  = (0x00000080 | 0x00000040)
+	RTYPE_OUT = (0x00000000 | 0x00000040)
 )
 
 // requests
